@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>exercicio 2 - curso em vídeo</title>
+</head>
+
+<body>
+    <header>
+        <h3>Verificador de Idade</h3>
+    </header>
+    <section>
+        <div>
+            <label for="anoNasc">Ano de Nascimento:</label>
+            <input type="number" name="anoNasc" id="anoNasc" min="0">
+            <p>Sexo:
+                <input type="radio" name="radSexo" id="masc">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radSexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <button onclick="verificar()">Verificar</button>
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+</body>
+
+</html>
